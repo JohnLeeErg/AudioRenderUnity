@@ -323,12 +323,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac2861ae79aae9140b7db69a0cdb5a10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderDeviceType: 0
+  renderDeviceType: 2
   renderCamera: {fileID: 1741793781}
   scaleX: -2
   scaleY: -2
   intensity: 0.35
-  randomOffset: 0
+  randomOffset: 1
   useLineToTriangleClipping: 0
   logVerbose: 0
 --- !u!114 &1688218245
@@ -344,8 +344,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   edgeAngleLimit: 1
-  overrideExistingObjects: 0
-  removeMaterials: 0
+  overrideExistingObjects: 1
+  removeMaterials: 1
 --- !u!1 &1725769601
 GameObject:
   m_ObjectHideFlags: 0

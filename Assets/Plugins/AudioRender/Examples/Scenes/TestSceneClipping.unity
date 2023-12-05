@@ -492,6 +492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skinnedMeshRenderer: {fileID: 0}
   edgeAngleLimit: 90
+  removeMaterials: 0
 --- !u!65 &750011632
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -726,6 +727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skinnedMeshRenderer: {fileID: 0}
   edgeAngleLimit: 90
+  removeMaterials: 0
 --- !u!1 &1444677910
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,8 +803,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac2861ae79aae9140b7db69a0cdb5a10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useEmulator: 1
+  renderDeviceType: 2
   renderCamera: {fileID: 675085829}
+  scaleX: -2
+  scaleY: -2
   intensity: 0.35
   randomOffset: 0
   useLineToTriangleClipping: 1
